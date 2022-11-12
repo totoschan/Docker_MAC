@@ -32,7 +32,7 @@ make
 ```
  insmod update_list.ko blacklist_insert="/usr/bin/ps" open_blacklist_insert="/test/hello:cat"
  
- blacklist_insert 
+                blacklist_insert 
 		whitelist_insert 
 		blacklist_delete
 		whitelist_delete
