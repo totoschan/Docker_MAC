@@ -1,0 +1,3 @@
+insmod para.ko container_name=5771 containerd_shim=5755 list_type=0 openlist_type=0 dir_path="/home/chan/tmp/config/"
+
+insmod update_list.ko blacklist_insert="/usr/bin/ps" open_blacklist_insert="/test/hello:cat" open_whitelist_insert="/test/hello:head"
